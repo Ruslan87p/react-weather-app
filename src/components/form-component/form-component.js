@@ -12,13 +12,9 @@ const Form = (props) => {
         <div className="container">
             <form onSubmit={props.loadWeather}>
                 <div className="row mt-3 cm d-flex justify-content-between">
-                    {/* <div className="col-md-3 offset-md-2">
-                        <input type="text" placeholder="City" className="form-control" name="city" autoComplete="off"/>
-                    </div> */}
-
                     <div className="form-group field">
                         <input type="input" className="form-field" placeholder="city" name="city" id='city' required autoComplete="off"/>
-                        <label htmlFor="city" className="form-label">City, or Country</label>
+                        <label htmlFor="city" className="form-label">City</label>
                     </div>
 
                     <div className="text-md-left d-flex justify-content-end align-items-end w-50 pl-3">

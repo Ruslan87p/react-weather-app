@@ -2,12 +2,17 @@
   overflow-x: hidden !important;
 }
 .wrapper {
-  padding: 20px !important;
+  max-width: 400px;
+  margin: 20px auto;
+  border: none;
+  padding: 15px !important;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.15) !important;
   font-family: 'Montserrat', sans-serif;
   backdrop-filter: blur(5px);
+  color: #2f426c;
+
   /* background: url('./../../images/mountain.svg'); */
   /* linear-gradient(
       to bottom,
@@ -22,11 +27,9 @@
   font-weight: 300;
   font-size: calc(30px + (40 - 30) * ((100vw - 320px) / (1920 - 320)));
   letter-spacing: 5px;
-  color: #2f426c;
 }
 .celsius {
   font-weight: 400;
-  color: #2f426c;
   font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1920 - 320)));
 }
 .icon {

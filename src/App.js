@@ -164,7 +164,28 @@ export default class App extends React.Component {
     }
 
     
+
+    
     render() {
+
+      const DateToday = () => {
+        let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        for (let i = 0; i < days.length; i++) {
+         
+          let today = new Date();
+          let dd = String(today.getDate()).padStart(2, '0');
+          let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+          let yyyy = today.getFullYear();
+          let dayName = today.toString().split(' ')[0];
+          const element = days[i].substring(0,3);
+    
+          if (element === dayName) {
+            today = days[i] + ' - ' + mm + '.' + dd + '.' + yyyy;
+            return today;
+          }
+        }
+      }
+      
 
       if (this.state.loading) {
         return(
@@ -180,11 +201,11 @@ export default class App extends React.Component {
       }
 
         return(
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <h1 className="date">
-                  Weather App
+                  Weather App.  <span><DateToday /></span>
                 </h1>
                 <WeatherServiceProvider value={this.state} >
                   <Form loadWeather={this.getData} />
