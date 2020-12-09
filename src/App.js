@@ -180,11 +180,11 @@ export default class App extends React.Component {
       }
 
         return(
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-12">
                 <h1 className="date">
-                  Today's weather
+                  Weather App
                 </h1>
                 <WeatherServiceProvider value={this.state} >
                   <Form loadWeather={this.getData} />

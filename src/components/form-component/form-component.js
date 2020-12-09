@@ -16,9 +16,9 @@ const Form = (props) => {
                         <input type="text" placeholder="City" className="form-control" name="city" autoComplete="off"/>
                     </div> */}
 
-                    <div className="form__group field">
-                        <input type="input" className="form__field" placeholder="city" name="city" id='city' required autoComplete="off"/>
-                        <label htmlFor="city" className="form__label">City</label>
+                    <div className="form-group field">
+                        <input type="input" className="form-field" placeholder="city" name="city" id='city' required autoComplete="off"/>
+                        <label htmlFor="city" className="form-label">City, or Country</label>
                     </div>
 
                     <div className="text-md-left d-flex justify-content-end align-items-end w-50 pl-3">
