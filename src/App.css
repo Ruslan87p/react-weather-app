@@ -1,0 +1,27 @@
+body {
+  background: rgb(0, 132, 247);
+  background: linear-gradient(
+    329deg,
+    rgba(240, 247, 253, 1) 0%,
+    rgba(238, 245, 251, 1) 100%
+  );
+}
+
+.map {
+  width: 100%;
+  height: 350px;
+}
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+.mapbox-logo {
+  display: none !important;
+}
+
+h1 {
+  color: #2f426c;
+}
+.date {
+  color: #2f426c;
+  font-size: 20px;
+}

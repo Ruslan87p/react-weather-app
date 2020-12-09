@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F4A71D;}
+	.st1{fill:none;stroke:#F4A71D;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#DADFEA;}
+	.st3{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="32" cy="32" r="11.6"/>
+	<line class="st1" x1="32" y1="15.7" x2="32" y2="9.5"/>
+	<line class="st1" x1="32" y1="54.5" x2="32" y2="48.3"/>
+	<line class="st1" x1="43.5" y1="20.5" x2="47.9" y2="16.1"/>
+	<line class="st1" x1="16.1" y1="47.9" x2="20.5" y2="43.5"/>
+	<line class="st1" x1="20.5" y1="20.5" x2="16.1" y2="16.1"/>
+	<line class="st1" x1="47.9" y1="47.9" x2="43.5" y2="43.5"/>
+	<line class="st1" x1="15.7" y1="32" x2="9.5" y2="32"/>
+	<line class="st1" x1="54.5" y1="32" x2="48.3" y2="32"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="45s" fill="remove" from="0 32 32" repeatCount="indefinite" restart="always" to="360 32 32" type="rotate">
+		</animateTransform>
+</g>
+<path class="st2" d="M48.2,41.2h-0.4c1.5-6.4-2.4-12.8-8.7-14.3c-5-1.2-10.2,0.9-12.9,5.3c-3.8-2.2-8.6-1-10.8,2.8
+	c-0.7,1.2-1.1,2.6-1.1,4c0,0.4,0,0.9,0.1,1.3c-4.6,0.9-7.6,5.4-6.7,10c0.8,4,4.2,6.8,8.3,6.9c0.2,0,0.4,0,0.6,0l0,0h31.7
+	c4.4,0,7.9-3.5,7.9-7.9S52.5,41.2,48.2,41.2z"/>
+<g>
+	<line class="st3" x1="15.8" y1="46.2" x2="45.8" y2="46.2"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="0s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-4 0; 4 0; -4 0">
+		</animateTransform>
+</g>
+<g>
+	<line class="st3" x1="15.8" y1="53.2" x2="45.8" y2="53.2"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="-2s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-3 0; 3 0; -3 0">
+		</animateTransform>
+</g>
+<g>
+	<line class="st3" x1="15.8" y1="60.2" x2="45.8" y2="60.2"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="-4s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-4 0; 4 0; -4 0">
+		</animateTransform>
+</g>
+</svg>

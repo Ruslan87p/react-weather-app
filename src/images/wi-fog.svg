@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DADFEA;}
+	.st1{fill:none;stroke:#EFEFEF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M49.2,30.4h-0.4c1.5-6.3-2.3-12.6-8.6-14.1c-4.9-1.2-10,0.9-12.7,5.2c-3.7-2.2-8.5-1-10.7,2.7
+		c-0.7,1.2-1.1,2.6-1.1,4c0,0.4,0,0.9,0.1,1.3c-4.5,0.9-7.5,5.3-6.6,9.8c0.8,3.9,4.2,6.7,8.2,6.8c0.2,0,0.4,0,0.6,0l0,0h31.2
+		c4.3,0,7.8-3.5,7.8-7.8S53.5,30.4,49.2,30.4z"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="7s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-3 0; 3 0; -3 0">
+		</animateTransform>
+</g>
+<g>
+	<line class="st1" x1="17" y1="39.3" x2="47" y2="39.3"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="0s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-4 0; 4 0; -4 0">
+		</animateTransform>
+</g>
+<g>
+	<line class="st1" x1="17" y1="46.3" x2="47" y2="46.3"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="-2s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-3 0; 3 0; -3 0">
+		</animateTransform>
+</g>
+<g>
+	<line class="st1" x1="17" y1="53.3" x2="47" y2="53.3"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" begin="-4s" calcMode="linear" dur="5s" fill="remove" repeatCount="indefinite" restart="always" type="translate" values="-4 0; 4 0; -4 0">
+		</animateTransform>
+</g>
+</svg>
