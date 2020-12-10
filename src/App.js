@@ -110,15 +110,16 @@ export default class App extends React.Component {
           this.getWeatherIcon(this.weatherIcon, data.weather[0].id);
         }
       })
+      .catch( err => {
+        this.setState({
+          error: true,
+        })
+      })
     }
 
 
 
     componentDidMount() {
-
-
-
-  
     
 
 
@@ -191,13 +192,12 @@ export default class App extends React.Component {
           <div className="container font-weight-bold">
             <div id="wrapper">
               <h1>Loading</h1>
-              <div class="spinner"></div>
-              <div class="spinner2"></div>
+              <div className="spinner"></div>
+              <div className="spinner2"></div>
             </div>
           </div>
         )
       }
-
 
       
       const map = document.querySelector('.map');
