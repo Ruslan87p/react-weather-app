@@ -130,7 +130,6 @@ export default class App extends React.Component {
             city: data.country_name,
             latitude: data.latitude,
             longitude: data.longitude,
-            loading: false,
           });
           this.buildData(data.country_name);
         }
@@ -185,11 +184,17 @@ export default class App extends React.Component {
           }
         }
       }
-      
+
 
       if (this.state.loading) {
         return(
-          <h1 className="font-weight-bold">Loading...</h1>
+          <div className="container font-weight-bold">
+            <div id="wrapper">
+              <h1>Loading</h1>
+              <div class="spinner"></div>
+              <div class="spinner2"></div>
+            </div>
+          </div>
         )
       }
 
@@ -214,7 +219,7 @@ export default class App extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-12">
+            <div className="col-lg-12 mt-4">
               <div className="map"></div>
             </div>
 

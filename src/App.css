@@ -25,3 +25,36 @@ h1 {
   color: #2f426c;
   font-size: 20px;
 }
+
+/*  LOADER */
+#wrapper {
+  margin-top: 50px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#container > div {
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 10rem 0;
+  font-family: 'Inconsolata', monospace;
+}
+.spinner {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #6a42d2;
+  margin-bottom: 10rem;
+  animation: 1s spin ease-in-out infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
