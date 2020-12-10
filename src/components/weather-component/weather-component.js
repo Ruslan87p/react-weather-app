@@ -15,9 +15,9 @@ const ErrorView = () => {
             
                     <div className="text-center forest-bg">
                         <h1 className="city">{'.......'.toUpperCase()}</h1>
-                        <h4 className="p-2 text-center"> Looks like you are lost </h4>
+                        <h4 className="p-2 text-center"> {'Looks like you are lost'.toUpperCase()} </h4>
                             <div className="p-0">
-                                <img className="icon p-4" src={compass}/>
+                                <img className="icon p-0" src={compass}/>
 
                                 <footer className="d-flex flex-row justify-content-center align-items-center mt-4">
                                     <span className="blockquote-footer p-3"></span>
